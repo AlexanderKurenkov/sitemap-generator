@@ -14,5 +14,12 @@
             "email": "contact.kurenkov@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.4"
+    },
+    "archive": {
+        "exclude": [
+            "/examples"
+        ]
+    }
 }
