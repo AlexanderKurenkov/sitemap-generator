@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SitemapGenerator\Serializers;
+namespace Pyrobyte\SitemapGenerator\Serializers;
 
 use Pyrobyte\SitemapGenerator\Contracts\SerializerInterface;
 
