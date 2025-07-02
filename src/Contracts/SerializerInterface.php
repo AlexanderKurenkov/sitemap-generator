@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Pyrobyte\SitemapGenerator\Contracts;
 
 /**
- * Интерфейс для сериализации данных карты сайта
+ * Интерфейс для генерации карты сайта
  */
-interface SerializerInterface
+interface GeneratorInterface
 {
     /**
      * Преобразует массив данных в строку для записи в файл
@@ -15,5 +15,5 @@ interface SerializerInterface
      * @param array $pages
      * @return string
      */
-    public function serialize(array $pages): string;
+    public function generate(array $pages): string;
 }
